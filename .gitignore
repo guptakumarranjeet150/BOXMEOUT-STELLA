@@ -5,13 +5,8 @@
 # ============================================================
 
 # ─── Environment & Secrets ───────────────────────────────────
-.env
-.env.local
-.env.development
 .env.development.local
-.env.test
 .env.test.local
-.env.production
 .env.production.local
 .contract-addresses.env
 
@@ -97,7 +92,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -119,3 +113,4 @@ Desktop.ini
 .cache/
 tmp/
 .tmp/
+config.bat
